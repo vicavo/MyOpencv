@@ -1,7 +1,49 @@
 
-1. 监督学习算法和无监督学习算法:
+1. 监督学习算法和无监督学习算法(Supervised and Unsupervised):
 有监督学习算法是由算法设计者将包含结果的数据交由算法进行处理，即需要用户明确的告诉算法需要做什么;
 无监督学习算法是由程序自己进行学习。
 链接：https://www.cnblogs.com/nowornever-L/p/6862278.html
 
-2. cost function:
+2. 损失函数(Cost function):
+
+
+3. 激活函数(Activation function)
+
+
+
+4. 反向传播(backpropagation)
+
+
+5. 正则化(Regularization)
+
+
+6. 优化(Optimization)
+
+
+7. 学习速度(Learning Rate)
+
+
+8. 权重初始化(Weight Initiazation)
+   a.All zero initialzation
+   
+   b.Initialzation with small random Numbers
+   
+   c. Calibrate the Variances
+
+9. 输入层(Input Layer)
+
+
+
+10. 隐藏层(Hidden Layers)
+
+
+11. 网络单元(Unit(Neurous))
+
+
+12. Batch 归一化(Batch Normalization)
+
+
+
+some resource:
+https://www.cnblogs.com/nowornever-L/p/6890663.html
+https://www.cnblogs.com/nowornever-L/p/6890648.html
