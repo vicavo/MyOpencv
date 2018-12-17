@@ -14,11 +14,32 @@
 4. 反向传播(backpropagation)
 
 
+
+链接：
+https://www.cnblogs.com/nowornever-L/p/6908944.html
+
 5. 正则化(Regularization)
 
+链接：
+https://www.cnblogs.com/nowornever-L/p/6862320.html
 
-6. 优化(Optimization)
 
+
+6. 优化器算法(Optimization)
+   a. 梯度下降(Gradient Descent)
+   
+   b.随机梯度下降(Stochastic Gradient Descent)
+   
+   c.小Batch 随机梯度下降(Mini Batch stochastic Gradient Descent)
+   
+   d.动量（momentum）
+   
+   e.adagrad
+
+
+
+链接：
+https://www.cnblogs.com/guoyaohua/p/8542554.html
 
 7. 学习速度(Learning Rate)
 
@@ -41,6 +62,37 @@
 
 
 12. Batch 归一化(Batch Normalization)
+  Batch Normalization的目的是让网络训练过程中每一层神经网络的输入保持相同的分布。
+  
+链接：
+http://www.cnblogs.com/guoyaohua/p/8724433.html
+
+
+13. 逻辑回归(Logistic Regression)
+
+链接：
+https://www.cnblogs.com/nowornever-L/p/6878138.html
+https://www.cnblogs.com/nowornever-L/p/6862314.html
+
+
+14. 向前传播(ForwardPropagration)
+
+
+
+15. 超参数
+   由人工手动或者外界设置，用来帮助算法估计模型的参数，超参数是在开始学习过程之前设置值的参数，
+   而不是通过训练得到的参数数据。通常情况下，需要对超参数进行优化，给学习机选择一组最优超参数，以提高学习的性能和效果。
+
+链接：
+https://blog.csdn.net/weixin_43061687/article/details/82711430
+
+
+
+16. 白化
+白化，就是对输入数据分布变换到0均值，单位方差的正态分布
+
+
+
 
 
 
