@@ -21,11 +21,14 @@ https://www.cnblogs.com/guoyaohua/p/9217206.html
 
 
 4. 反向传播(backpropagation)
+反向传播算法告诉我们当我们改变权值（weights）和偏置（biases）的时候，损失函数改变的速度和神经网络的整体表现。
 
 
 
 链接：
 https://www.cnblogs.com/nowornever-L/p/6908944.html
+https://www.imooc.com/article/44125
+https://www.jianshu.com/p/2e02bc6384a8
 
 5. 正则化(Regularization)
 
@@ -141,9 +144,17 @@ https://www.cnblogs.com/guoyaohua/p/9443612.html
 在输入层，如果是灰度图片，那就只有一个feature map；如果是彩色图片，一般就是3个feature map（红绿蓝）。
 层与层之间会有若干个卷积核（kernel），上一层和每个feature map跟每个卷积核做卷积，都会产生下一层的一个feature map。
 
+链接：
+https://blog.csdn.net/allenlzcoder/article/details/78739346
+
+
+
+Other Basic Concept:
+1. 深度学习利用正向传播来提取特征，同时利用反向传播来调整参数.
 
 
 
 some resource:
+https://www.cnblogs.com/guoyaohua/p/8534077.html
 https://www.cnblogs.com/nowornever-L/p/6890663.html
 https://www.cnblogs.com/nowornever-L/p/6890648.html
