@@ -5,6 +5,15 @@
 链接：https://www.cnblogs.com/nowornever-L/p/6862278.html
 
 2. 损失函数(Cost function):
+    损失函数是用来估量模型的预测值f(x)与真实值Y的不一致程度，它是一个非负实值函数,通常使用L(Y, f(x))来表示，损失函数越小，模型的鲁棒性就越好。
+
+
+
+svm损失函数：
+https://www.cnblogs.com/guoyaohua/p/9436237.html
+
+链接：
+https://www.cnblogs.com/guoyaohua/p/9217206.html
 
 
 3. 激活函数(Activation function)
@@ -58,7 +67,7 @@ https://www.cnblogs.com/guoyaohua/p/8542554.html
 10. 隐藏层(Hidden Layers)
 
 
-11. 网络单元(Unit(Neurous))
+11. 神经元(Unit(Neurous))
 
 
 12. Batch 归一化(Batch Normalization)
@@ -89,9 +98,48 @@ https://blog.csdn.net/weixin_43061687/article/details/82711430
 
 
 16. 白化
-白化，就是对输入数据分布变换到0均值，单位方差的正态分布
+白化，就是对输入数据分布变换到0均值，单位方差的正态分布。
+图像白化（whitening）可用于对过度曝光或低曝光的图片进行处理，处理的方式就是改变图像的平均像素值为 0 ，改变图像的方差为单位方差 1。
 
 
+
+
+
+17. 池化和池化层
+    a. 池化（下采样）
+    池化等同于图像处理中的PCF(Pixel compress filter)或者说是下采样。主要是用来对特征进行压缩用的。
+    池化一般采用两种方式 ：
+       average pooling：将一个filter区域用均值替代。
+       max pooling:     将一个filter区域用最大值替代。
+注：池化和卷积的区别在于池化是按filter大小进行步进的，而卷积是按pixel进行步进的。  
+
+    
+    b.池化层
+     对输入的特征图进行压缩，一方面使特征图变小，简化网络计算复杂度；一方面进行特征压缩，提取主要特征。
+  
+  链接：
+  https://cloud.tencent.com/developer/article/1347909
+  https://blog.csdn.net/hhello_jason/article/details/79071769
+  https://blog.csdn.net/qq_40525008/article/details/79964306
+  https://blog.csdn.net/qq_18435519/article/details/53234516
+  
+18. 全连接层
+    连接所有的特征，将输出值送给分类器。
+    
+    
+
+19. 卷积层
+   通过卷积运算，可以使原信号特征增强，并且降低噪音。
+
+
+   
+链接：
+https://www.cnblogs.com/guoyaohua/p/9443612.html
+
+20. Feature Map
+在每个卷积层，数据都是以三维形式存在的。你可以把它看成许多个二维图片叠在一起，其中每一个称为一个feature map。
+在输入层，如果是灰度图片，那就只有一个feature map；如果是彩色图片，一般就是3个feature map（红绿蓝）。
+层与层之间会有若干个卷积核（kernel），上一层和每个feature map跟每个卷积核做卷积，都会产生下一层的一个feature map。
 
 
 
