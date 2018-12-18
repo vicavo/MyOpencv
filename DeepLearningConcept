@@ -148,13 +148,22 @@ https://www.cnblogs.com/guoyaohua/p/9443612.html
 https://blog.csdn.net/allenlzcoder/article/details/78739346
 
 
+21. Dropout
+
+
+
+
 
 Other Basic Concept:
 1. 深度学习利用正向传播来提取特征，同时利用反向传播来调整参数.
-
+2. CNN叫做卷积神经网络，神经网络的神经元在计算时使用二维的卷积和的方式进行，使得运算在二维空间上进行扩展。
+3. RNN叫做递归神经网络，递归神经网络则是在时间上进行扩展;递归神经网络是在时间上进行扩展，
+即考虑当前问题的同时也要考虑上一个状态的结果作为当前状态的输入.CNN-用于图像处理，RNN用于语音处理.
 
 
 some resource:
+http://lamda.nju.edu.cn/weixs/project/CNNTricks/CNNTricks.html
 https://www.cnblogs.com/guoyaohua/p/8534077.html
 https://www.cnblogs.com/nowornever-L/p/6890663.html
 https://www.cnblogs.com/nowornever-L/p/6890648.html
+https://www.cnblogs.com/wuxiangli/p/7258510.html
