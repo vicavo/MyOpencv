@@ -151,6 +151,27 @@ https://blog.csdn.net/allenlzcoder/article/details/78739346
 21. Dropout
 
 
+22. 链式法则：
+由基本函数组成的复杂组合的求导，就做链式法则。
+
+
+
+链接：
+https://blog.csdn.net/dev_csdn/article/details/78500708
+
+23. 数据增强（data augmentation ）
+
+链接：
+https://blog.csdn.net/qq_17448289/article/details/78051703
+
+
+24. fine-tune
+
+
+
+25. 
+
+
 
 
 
