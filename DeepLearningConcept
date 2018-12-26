@@ -180,7 +180,14 @@ https://coolshell.cn/articles/8052.html
 
 
 26. 主成分分析方法 PCA(principal Component Analysis)
+PCA将数据进行不同正交方向上的投影，使得数据在投影方向上的方差最大且其方向相互正交。
+然后将方差最大的方向作为主要特征，并且各个正交方向上的数据分离其相关性。从而得到
+不同正交方向上的数据，并进行分别处理，从而达到降低数据维度。
 
+
+
+链接：
+http://m.elecfans.com/article/594908.html
 
 
 
