@@ -21,7 +21,8 @@ Image enhance:
 https://www.cnblogs.com/jukan/p/7815722.html
 https://blog.csdn.net/kezunhai/article/details/41553097
 
-
+mathmatic:
+https://zhuanlan.zhihu.com/p/31199228
 
 Learnning resource:
 https://www.cnblogs.com/mikewolf2002/p/3603375.html
