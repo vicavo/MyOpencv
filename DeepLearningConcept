@@ -223,6 +223,14 @@ ReLU 是一个元素级别的操作（应用到各个像素），并将卷积后
 
 
 
+28. perception:
+    Single layer perception
+    multi layer perception
+
+
+
+Link:
+https://ujjwalkarn.me/2016/08/09/quick-intro-neural-networks/
 
 
 Other Basic Concept:
